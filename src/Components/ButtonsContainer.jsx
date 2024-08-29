@@ -22,8 +22,8 @@ const ButtonsContainer = () => {
   ];
   return (
     <>
-      {buttonNumbers.map((btnNumber) => (
-        <button className={styles.calButton}>{btnNumber}</button>
+      {buttonNumbers.map((btnNum) => (
+        <button className={styles.calButton}>{btnNum}</button>
       ))}
     </>
   );
